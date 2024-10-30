@@ -2,7 +2,7 @@
 
 Welcome to the **Scriptorium API**! This API provides a structured and efficient way to manage, retrieve, and organize book information. Ideal for applications focused on books, libraries, or literary collections.
 
-═════════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════
 
 To view the code move to master branch
 
