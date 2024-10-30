@@ -1,0 +1,62 @@
+.first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: right;
+    overflow-y: auto;
+    color: #f3ecec;
+  }
+
+  .code{
+    width: 40%;
+    height: 30vh;
+    background: fixed;
+    padding-top: 1px;
+    
+}
+.code ul{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+  
+}
+.code ul li{
+   list-style: none;
+   display:inline-block;
+   margin: 15px;
+
+}
+.code ul li a{
+    text-decoration: none;
+    color:blue;
+    text-transform: uppercase;
+    align-content: center;
+    padding:24px 5px;
+    display: block;
+
+}
+.code ul li a:hover{
+    background-color: #dbe26f;
+    color:darkorange;
+    padding: 2px;
+}
+
+
+@media screen and (min-width: 992px){
+    li a{
+        padding: 14px 10px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    li a{
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width: 576px){
+    li a{
+        padding: 8px;
+    }
+}

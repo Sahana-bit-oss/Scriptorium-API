@@ -1,0 +1,40 @@
+.App {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  
+}
+
+.hole{
+
+  background-image:radial-gradient(rgb(132, 168, 47),rgb(161, 60, 77),rgb(41, 228, 35));
+
+}
+
+.names{
+  padding-left: 20px;
+  padding-top: 10px;
+ 
+}
+
+.text-end{
+  padding-left:30px;
+  padding-top:50px;
+  text-align: right;
+}
+.tables{
+  padding-left:30px;
+  padding-bottom:50px;
+}
+
+table,th,td{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td,th {
+  height: 50px;
+  width: 10%;
+  padding: 15px;
+}
+

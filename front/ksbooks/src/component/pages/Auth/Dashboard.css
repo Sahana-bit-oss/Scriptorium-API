@@ -1,0 +1,6 @@
+.hero{
+    display:flexbox;
+    height: 98vh;
+    background-image: url('../../../background.jpg');
+    background-size:cover;
+}
